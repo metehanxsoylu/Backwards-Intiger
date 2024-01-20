@@ -4,7 +4,7 @@
 using namespace std;
 
 
-int findv(vector<int> vec,int kacinci) {
+int findv(vector<int> vec,int kacinci) { //thats actually useless but i added that just skip to the 50th line
 	int suankacinci = 1;
 
 	vector<int>::iterator iter = vec.begin();
@@ -23,7 +23,7 @@ int findv(vector<int> vec,int kacinci) {
 	}
 }
 
-void setv(vector<int> &vec, int kacinci, int newvalue) {
+void setv(vector<int> &vec, int kacinci, int newvalue) { //thats actually useless too but i added that just skip to the 50th line
 	int suankacinci = 1;
 	vector<int>::iterator iter = vec.begin();
 
